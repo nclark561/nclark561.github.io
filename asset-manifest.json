@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.af8f78b8.css",
-    "main.js": "/static/js/main.27a075e5.js",
+    "main.css": "/static/css/main.8724282b.css",
+    "main.js": "/static/js/main.7faf4354.js",
+    "static/media/narrativenexus.png": "/static/media/narrativenexus.26a33d4401694e1d866c.png",
     "static/media/pokelfLogo.png": "/static/media/pokelfLogo.1bb1918a2bb021ab424c.png",
     "index.html": "/index.html",
-    "main.af8f78b8.css.map": "/static/css/main.af8f78b8.css.map",
-    "main.27a075e5.js.map": "/static/js/main.27a075e5.js.map"
+    "main.8724282b.css.map": "/static/css/main.8724282b.css.map",
+    "main.7faf4354.js.map": "/static/js/main.7faf4354.js.map"
   },
   "entrypoints": [
-    "static/css/main.af8f78b8.css",
-    "static/js/main.27a075e5.js"
+    "static/css/main.8724282b.css",
+    "static/js/main.7faf4354.js"
   ]
 }
