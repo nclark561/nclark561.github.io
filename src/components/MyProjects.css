@@ -1,0 +1,72 @@
+.projects-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+h2 {
+    font-size: 25pt;
+    font-weight: 500;
+}
+
+.git-link {
+    display: flex;
+    align-items: center;
+}
+
+.github-link {
+    background-color: black;
+    color: azure;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    font-size: 15pt;
+    margin-left: 5px;
+}
+
+.project-container {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
+    border: solid;
+    border-color: azure;
+    border-radius: 20px;
+    background-color: #1d1d1d;
+    box-shadow: 0 0 30px #1f9aff;
+}
+
+.narr {
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.project-desc {
+    width: 700px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+}
+
+.desc-txt {
+    max-width: 500px;
+    border: solid;
+    border-color: azure;
+    border-width: 1px;
+}
+
+.proj-tech {
+    font-size: 16pt;
+}

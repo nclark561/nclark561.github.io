@@ -4,4 +4,12 @@
     position: fixed;
     bottom: 10px;
     left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 2px;
+    height:65px;
+    background-color: rgb(132, 132, 132);
 }

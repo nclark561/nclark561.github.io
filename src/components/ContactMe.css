@@ -1,0 +1,113 @@
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+}
+
+.contact-h {
+  margin: 20px;
+}
+
+#contact-h1 {
+  font-size: 40pt;
+  font-weight: 300;
+}
+
+#contact-h2 {
+  margin-top: 0px;
+  font-size: 30pt;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.name-div {
+  display: flex;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.input-div > label {
+  font-size: 14pt;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form > * {
+  margin: 10px;
+}
+
+.input-div > input {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: azure;
+  height: 30px;
+  color: azure;
+  font-size: 14pt;
+}
+
+.input-div > input:focus {
+  outline: none;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: azure;
+}
+
+.submit {
+  background: none;
+  color: azure;
+  border: solid;
+  border-color: azure;
+  border-width: 2px;
+  height: 55px;
+  width: 115px;
+  color: azure;
+  font-family: "Urbanist", sans-serif;
+  font-size: 18pt;
+  cursor: pointer;
+}
+
+.names {
+  width: 300px;
+}
+
+#first-name {
+  margin-right: 80px;
+}
+
+.message {
+  width: 700px;
+}
+
+@media screen and (max-width: 1165px) {
+  #contact-h1 {
+    font-size: 24pt;
+    font-weight: 300;
+  }
+  #contact-h2 {
+    font-size: 18pt;
+    font-weight: 300;
+  }
+  .message {
+    width: 300px;
+  }
+  .name-div {
+    flex-direction: column;
+    align-items: center;
+  }
+  #first-name {
+    margin-left: 75px;
+  }
+}
