@@ -15,7 +15,7 @@ export const MyProjects = () => {
           </a>
         </div>
         <div className="project-container">
-          <a href="http://52.53.220.241/" target="_blank">
+          <a href="http://52.53.220.241:3000/" target="_blank">
             <div className="img-div">
               <img src={pokelfLogo} alt="PokeLF" />
             </div>
