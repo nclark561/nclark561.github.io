@@ -17,6 +17,7 @@ export const Skills = () => {
             <ul className="skills-list">
               <li>Typescript</li>
               <li>NextJS</li>
+              <li>Remix</li>
             </ul>
           </div>
         </div>
