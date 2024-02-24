@@ -13,3 +13,16 @@
     height:65px;
     background-color: rgb(132, 132, 132);
 }
+
+@media screen and (max-width: 1165px) {
+    .media-bar {
+        flex-direction: row;
+        position: inherit;
+        justify-content: center;
+        align-items: center;
+    }
+    .line {
+        width: 0;
+        height: 0;
+    }
+}

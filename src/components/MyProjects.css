@@ -2,7 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 20vh;
+    margin-bottom: 3vh;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 }
 
 h2 {
@@ -10,33 +19,22 @@ h2 {
     font-weight: 500;
 }
 
-.git-link {
-    display: flex;
-    align-items: center;
-}
-
-.github-link {
-    background-color: black;
-    color: azure;
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 600;
-    font-size: 15pt;
-    margin-left: 5px;
-}
-
 .project-container {
     display: flex;
-    margin-top: 30px;
-    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .img-div {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    height: 200px;
-    width: 400px;
+    height: 23.5vh;
+    width: 22.25vw;
+    min-width: 300px;
     border: solid;
     border-color: azure;
     border-radius: 20px;
@@ -44,24 +42,38 @@ h2 {
     box-shadow: 0 0 30px #1f9aff;
 }
 
+.jukify {
+    height: 18vh;
+}
+
 .narr {
-    height: 200px;
-    width: 400px;
+    height: 23.5vh;
+    width: 22.25vw;
+    min-width: 300px;
+    border-radius: 20px;
+}
+
+.pokelf {
+    width: 22.25vw;
     border-radius: 20px;
 }
 
 .project-desc {
-    width: 700px;
-    height: 200px;
+    height: fit-content;
+    margin: 10px;
+    width: 35vw;
+    min-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px
+    padding: 2%;
 }
 
 .desc-txt {
-    max-width: 500px;
+    padding: 1% 25% 1% 25%;
+    width: 15vw;
+    min-width: 300px;
     border: solid;
     border-color: azure;
     border-width: 1px;
@@ -69,4 +81,25 @@ h2 {
 
 .proj-tech {
     font-size: 16pt;
+}
+
+@media screen and (max-width: 1165px) {
+    .desc-txt {
+        padding: 0;
+        margin: 10px;
+    }
+    .project-container {
+        padding: 0 5px 0 5px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .pokelf-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-div {
+        margin: 0
+    }
 }

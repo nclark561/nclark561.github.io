@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;500&display=swap');
 
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
 
 .App {
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
 }
 
 .me {
@@ -12,6 +19,7 @@
     position: absolute;
     left: 5vw;
     top: 5vh;
+    min-width: 100px;
 }
 
 body {
@@ -26,18 +34,12 @@ footer {
 }
 
 @media screen and (max-width: 1165px) {
-    .project-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .img-div {
-        margin: 0
-    }
     .skills-div {
         flex-direction: column;
     }
-
-    .intro, .projects-header, .project-container, .skills-container, .contact-me {
-        margin-left: 20vw;
+    .me {
+        position: inherit;
+        margin-top: 20px;
+        margin-bottom: 0;
     }
 }

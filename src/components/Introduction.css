@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 10%;
 }
 
 h1 {
@@ -15,4 +18,10 @@ p {
     font-size: 18pt;
     color: rgb(198, 211, 211);
     font-weight: 300;
+}
+
+@media screen and (max-width: 1165px) {
+    .intro {
+        padding-top: 0;
+    }
 }

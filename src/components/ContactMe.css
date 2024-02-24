@@ -2,11 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 300px;
+  justify-content: center;
+  margin-top: 30vh;
+  width: 100vw;
 }
 
 .contact-h {
   margin: 20px;
+  text-align: center;
 }
 
 #contact-h1 {
@@ -23,12 +26,44 @@
 
 .name-div {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 5px 0 5px;
+}
+
+.name-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+}
+
+.names {
+  width: 61%
 }
 
 .input-div {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 10px;
+  width: 100%;
+  padding: 0 5px 0 5px;
+}
+
+.name-input > input {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: azure;
+  height: 30px;
+  color: azure;
+  font-size: 14pt;
 }
 
 .input-div > label {
@@ -38,7 +73,9 @@
 .contact-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  width: 70vw;
 }
 
 .contact-form > * {
@@ -79,16 +116,12 @@
   cursor: pointer;
 }
 
-.names {
-  width: 300px;
-}
-
-#first-name {
-  margin-right: 80px;
-}
+/* #first-name {
+  margin-right: 10px; 
+} */
 
 .message {
-  width: 700px;
+  width: 80%;
 }
 
 @media screen and (max-width: 1165px) {
@@ -100,14 +133,12 @@
     font-size: 18pt;
     font-weight: 300;
   }
-  .message {
-    width: 300px;
-  }
   .name-div {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
-  #first-name {
-    margin-left: 75px;
+  .names {
+    width: 80%;
   }
 }

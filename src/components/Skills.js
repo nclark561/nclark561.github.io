@@ -11,12 +11,12 @@ export const Skills = () => {
           <div className="list-container">
             <ul className="skills-list">
               <li>React</li>
-              <li>Javascript</li>
               <li>TailwindCSS</li>
+              <li>Angular</li>
             </ul>
             <ul className="skills-list">
-              <li>Typescript</li>
               <li>NextJS</li>
+              <li>Typescript</li>
               <li>Remix</li>
             </ul>
           </div>
@@ -30,8 +30,8 @@ export const Skills = () => {
               <li>Sequelize</li>
             </ul>
             <ul className="skills-list">
-              <li>AWS EC2</li>
-              <li>NodeJS</li>
+              <li>Nestjs</li>
+              <li>Socket.io</li>
               <li>Prisma</li>
             </ul>
           </div>

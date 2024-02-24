@@ -40,11 +40,11 @@ export const ContactMe = () => {
       </h2>
       <form ref={form} onSubmit={handleSubmit} className="contact-form">
         <div className="name-div">
-          <div className="input-div" id="first-name">
+          <div className="name-input" id="first-name">
             <label>First name</label>
             <input type="text" className="names" id='first-name-in'/>
           </div>
-          <div className="input-div" id="last-name">
+          <div className="name-input" id="last-name">
             <label>Last name</label>
             <input type="text" className="names" id='last-name-in'/>
           </div>

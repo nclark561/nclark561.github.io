@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 300px;
+  margin-top: 30vh;
+  width: 100vw;
 }
 
 h2 {
@@ -12,6 +13,8 @@ h2 {
 
 .skills-div {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skills {
@@ -20,10 +23,8 @@ h2 {
     align-items: center;
     border: solid;
     margin: 40px;
-    padding: 10px;
-    border-radius: 20px;
-    border-width: 2px;
-    max-height: 270px;
+    padding: 5%;
+    border-width: 1px;
 }
 
 .skills > h3 {
@@ -34,7 +35,7 @@ h2 {
 .list-container {
     display: flex;
     justify-self: center;
-    margin: 30px;
+    margin: 10px;
 }
 
 .skills-list {
@@ -48,5 +49,6 @@ h2 {
 .skills-list > li {
     font-size: 16pt;
     margin: 10px;
+    text-align: center;
 }
  
